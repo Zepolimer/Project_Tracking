@@ -17,54 +17,59 @@
   </head>
 
   <body>
-    <div class="header-flex">
-      <div class="logo"><img src="./assets/images/logo.svg" alt="logo" /></div>
-      <div class="burger">
+    <header class="header-flex">
+      <figure class="logo">
+        <img src="./assets/images/logo.svg" alt="" />
+      </figure>
+      <section class="burger">
         <button id="burger">
-          <img id="hamburger" src="./assets/images/icon-hamburger.svg" alt="">
-          <img id="cross" src="./assets/images/icon-close.svg" alt="">
+          <img id="hamburger" src="./assets/images/icon-hamburger.svg" alt="" />
+          <img id="cross" src="./assets/images/icon-close.svg" alt="" />
         </button>
-      </div>
-      <div class="menu-wrapper">
+      </section>
+      <nav class="menu-wrapper">
         <a href="#">Product</a>
         <a href="#">Features</a>
         <a href="#">Pricing</a>
         <div class="line"></div>
         <a href="#" class="login">Login</a>
-      </div>
-    </div>
+      </nav>
+    </header>
 
-
-    <div class="screen-container">
-    <div class="bg-desktop">
-      <div class="gray-border"></div>
-    </div>
-
-    <div class="text-container">
-      <div class="dashboard-flex">
-        <p class="uppercaz new">new</p>
-        <p class="uppercaz monograph">Monograph dashboard</p>
+    <section class="screen-container">
+      <div class="bg-desktop">
+        <div class="gray-border"></div>
       </div>
 
-      <div class="powerful-container">
-        <h1 class="uppercaz powerful">Powerful insights<br> into your team</h1>
-        <p class="project">
-          Project planning and time tracking<br> for agile teams
-        </p>
-      </div>
+      <section class="text-container">
+        <div class="dashboard-flex">
+          <p class="uppercaz new">new</p>
+          <p class="uppercaz monograph">Monograph dashboard</p>
+        </div>
 
-      <div class="schedule-flex">
-        <button id="scheduleDemo" class="uppercaz">Schedule a demo</button>
-        <p class="uppercaz preview">to see a preview</p>
-      </div>
-    </div>
+        <section class="powerful-container">
+          <h1 class="uppercaz powerful">
+            Powerful insights<br />
+            into your team
+          </h1>
+          <p class="project">
+            Project planning and time tracking<br />
+            for agile teams
+          </p>
+        </section>
 
-    <div class="calendrier">
-      <label for="start">Choose a date to schedule a demo !</label>
-      <input type="date" id="start" name="start">
-      <button id="letsGo">Ok, let's go !</button>
-    </div>
-  </div>
+        <section class="schedule-flex">
+          <button id="scheduleDemo" class="uppercaz">Schedule a demo</button>
+          <p class="uppercaz preview">to see a preview</p>
+        </section>
+      </section>
+
+      <section class="calendrier">
+        <label for="start">Choose a date to schedule a demo !</label>
+        <input type="date" id="start" name="start" />
+        <button id="letsGo">Ok, let's go !</button>
+      </section>
+    </section>
 
     <footer>
       <p class="attribution">
